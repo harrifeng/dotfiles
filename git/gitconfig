@@ -1,3 +1,5 @@
 [user]
 	email = harrifeng@gmail.com
 	name = Haoran Feng
+[core]
+	exxcludesfile = ~/.gitignore
