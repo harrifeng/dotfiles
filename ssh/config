@@ -1,3 +1,15 @@
 Host *
      StrictHostKeyChecking no
      UserKnownHostsFile=/dev/null
+
+
+Host one
+Hostname 172.16.1.101
+Port 22
+User vagrant
+IdentityFile ~/.vagrant.d/insecure_private_key
+
+Host two
+Hostname 172.16.1.102
+Port 22
+User vagrant
