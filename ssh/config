@@ -2,6 +2,30 @@ Host *
      StrictHostKeyChecking no
      UserKnownHostsFile=/dev/null
 
+# openstack ansible machines
+Host zero111
+Hostname 192.168.0.111
+Port 22
+User vagrant
+IdentityFile ~/.vagrant.d/insecure_private_key
+
+Host zero112
+Hostname 192.168.0.112
+Port 22
+User vagrant
+IdentityFile ~/.vagrant.d/insecure_private_key
+
+Host zero113
+Hostname 192.168.0.113
+Port 22
+User vagrant
+IdentityFile ~/.vagrant.d/insecure_private_key
+
+Host zero114
+Hostname 192.168.0.114
+Port 22
+User vagrant
+IdentityFile ~/.vagrant.d/insecure_private_key
 
 Host one
 Hostname 172.16.1.101
