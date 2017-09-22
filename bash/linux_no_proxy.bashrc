@@ -1,6 +1,8 @@
 # common setting------------------------------------------->
 export EDITOR=emacs
 export TERM=xterm-256color
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
 
 # git show branch------------------------------------------>
 parse_git_branch() {
