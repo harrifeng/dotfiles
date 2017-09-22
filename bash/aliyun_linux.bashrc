@@ -10,6 +10,6 @@ export PS1="[\T] \u@ \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
 
 
 export GOROOT=/usr/local/go
-export GOPATH=/home/fenghaoran/go
-PATH=$PATH:$GOPATH/.local/bin:$GOPATH/bin:/usr/local/bin
+export GOPATH=/home/fenghaoran/go:/home/fenghaoran/bitbucket/recommender.go
+PATH=/usr/local/bin:$PATH:$GOPATH/.local/bin:$GOPATH/bin:/usr/local/go/bin
 export PATH
