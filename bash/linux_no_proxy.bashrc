@@ -2,6 +2,7 @@
 export EDITOR=emacs
 export TERM=xterm-256color
 export GOPATH=$HOME/go
+export PATH=$PATH:/usr/local/bin
 export PATH=$PATH:$GOPATH/bin
 
 # git show branch------------------------------------------>
