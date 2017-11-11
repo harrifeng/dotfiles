@@ -58,7 +58,9 @@ XTerm*printerCommand: cat > ~/xtermdump
 ! Mouse selecting to copy, ctrl-v to paste
 ! Ctrl p to print screen content to file
 XTerm*VT100.Translations: #override \
+Ctrl<Key>space: string(0x03) string("a") \n\
 Ctrl<Key>comma: string(0x03) string("b") \n\
 Ctrl<Key>period: string(0x03) string("c") \n\
 Ctrl<Key>semicolon: string(0x03) string("d") \n\
+Ctrl<Key>apostrophe: string(0x03) string("e") \n\
 Ctrl<Key>Return: string(0x1c)
