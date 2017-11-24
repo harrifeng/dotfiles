@@ -1,3 +1,4 @@
 .tern-port
 *.org_archive
 .DS_Store
+.tramp_history
