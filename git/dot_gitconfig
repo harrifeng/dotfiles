@@ -2,4 +2,4 @@
 	email = harrifeng@gmail.com
 	name = Haoran Feng
 [core]
-	excludesfile = ~/github/dotfiles/git/gitignore_global
+	excludesfile = ~/.gitignore_global
