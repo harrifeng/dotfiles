@@ -7,7 +7,3 @@
 	helper = store
 [url "git@bitbucket.org:"]
 	insteadOf = https://bitbucket.org/
-[https]
-	proxy = http://localhost:1087
-[http]
-	proxy = http://localhost:1087
