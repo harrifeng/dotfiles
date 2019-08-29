@@ -5,7 +5,3 @@
 	excludesfile = ~/.gitignore_global
 [credential]
 	helper = store
-[https]
-	proxy = http://127.0.0.1:1087
-[http]
-	proxy = http://127.0.0.1:1087
